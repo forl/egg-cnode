@@ -1,8 +1,7 @@
 'use strict';
 
-module.exports = (options, app) => {
-
-  /**
+module.exports = () => {
+  /*
    * 需要登录
    */
   return async function(ctx, next) {
